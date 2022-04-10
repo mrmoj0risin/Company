@@ -9,7 +9,7 @@ public interface Employee extends Comparable {
         int salaryIn = (int) employee.getMonthSalary();
         int salaryThis = (int) this.getMonthSalary();
 
-        return Integer.compare(salaryThis,salaryIn);
+        return Integer.compare(salaryIn,salaryThis);
     }
 
 }
